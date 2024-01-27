@@ -1,0 +1,9 @@
+.firstdiv{
+display : flex ;
+justify-content : center ;
+align-items: center ;
+}
+
+.broken {
+    font-size : 1000px ;
+}

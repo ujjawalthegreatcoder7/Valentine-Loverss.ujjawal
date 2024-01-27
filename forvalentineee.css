@@ -1,0 +1,74 @@
+*{
+    margin : 0 ;
+    padding : 0 0 0 0 ;
+}
+
+.firstdiv{
+display : flex ;
+justify-content : center ;
+align-items : center ;
+}
+.image {
+height : 500px ;
+width : 500px ;
+margin-left : 200px ;
+}
+
+.bestline{
+text-shadow: 11px 11px 11px rgb(255, 0, 43) ;
+cursor : pointer ;
+font-size : 50px ;
+}
+
+.heart {
+      font-size : 50px ;
+    animation : heart 1s linear 1s infinite alternate  ;
+    transition : 1s ; 
+    margin-left : 100px ; 
+}
+
+@keyframes heart {
+
+to { font-size : 45px  }
+
+}
+.heartt{
+margin-left : 150px ;
+}
+
+@media only screen and (max-width : 600px){
+
+    .bestline {
+        font-size : 30px;
+       text-align: center ;
+       margin-left :120px ;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,416 @@
+*{
+    margin : 0 ;
+    font-family:Arial, Helvetica, sans-serif ; 
+    padding : 0 0 0 ;
+}
+
+.gif{
+    background-color: green;
+    height :250px ;
+    box-shadow: 0 10px 20px 30px black , 0 10px 30px 50px rgb(255, 0, 43) ,  0 0 50px 90px rgb(0, 0, 0) ;
+    margin-top : 50px ; 
+   border-bottom-left-radius: 300px   ;
+   border-top-right-radius: 300px   ;
+   border-bottom-right-radius: 300px   ;
+   border-top-left-radius: 300px   ;
+   opacity : 0.9;     
+}
+body{
+    background-color: pink ;
+}
+.seconddiv{
+    display : flex ;
+    align-items : center ;
+    justify-content : space-between ;
+
+}
+
+.firstimage{
+    display :flex ;
+    opacity:0.5 ;
+    left : 0 ;
+    top:0 ;
+    margin-left  : 0px ;
+    scale : 0.5 ;
+    height : 350px ;
+    width :350px ;
+    transition : 1s ;
+border-radius : 50px ;
+margin-top : 20px ;
+rotate : 12deg ;
+border: 3px double red ;
+
+animation : bounce 2s linear 2s infinite alternate ;
+}
+
+@keyframes bounce {
+    to { transform : translateX(20px );}
+}
+
+.firstimage:hover {
+opacity : 1 ;
+scale : 1 ;
+transform: rotate(-26deg) ;
+box-shadow: 5px 20px 30px rgb(255, 0, 183) ;
+}
+
+.secondimage{
+    display :flex ;
+    opacity:0.5 ;
+    left : 0 ;
+    top:0 ;
+    margin-left  : 0px ;
+    scale : 0.5 ;
+    height : 350px ;
+    width :350px ;
+    transition : 1s ;
+border-radius : 30px ;
+rotate : -12deg ;
+border: 3px solid red ;
+
+animation : squish 2s linear 2s infinite alternate ;
+}
+
+@keyframes squish{
+    from { width : 700px  } 
+    to{ width : 650px };
+}
+
+.secondimage:hover {
+opacity : 1 ;
+scale : 1 ;
+transform: rotate(25deg) ;
+box-shadow: 5px 20px 30px green;
+}
+
+.forimagee {
+    display: flex ;
+}
+
+
+.thirdimage{
+    display :flex ;
+    opacity:0.5 ;
+    left : 0 ;
+    top:0 ;
+    margin-left  : 0px ;
+    scale : 0.5 ;
+    height : 250px ;
+    width :250px ;
+    transition : 1s ;
+border-radius : 30px ;
+rotate : 10deg ;
+margin-top : 20px ;
+border: 3px dotted red ;
+
+}
+.thirdimage:hover {
+opacity : 1 ;
+scale : 1 ;
+transform: rotate(-25deg) ;
+box-shadow: 5px 20px 30px yellow ;
+}
+
+
+.fourthimage{
+    display :flex ;
+    opacity:0.5 ;
+    left : 0 ;
+    top:0 ;
+    margin-left  : 0px ;
+    scale : 0.5 ;
+    height : 300px ;
+    width :300px ;
+    transition : 1s ;
+border-radius : 30px ;
+rotate : -15deg ;
+margin-top : 20px ;
+border: 3px dashed red ;
+}
+.fourthimage:hover {
+opacity : 1 ;
+scale : 1 ;
+transform: rotate(30deg) ;
+box-shadow: 5px 20px 30px rgb(8, 0, 255) ;
+}
+
+
+.fifthimage{
+    display :flex ;
+    left : 0 ;
+    top:0 ;
+    opacity:0.5 ;
+    margin-left  : 0px ;
+    scale : 0.5 ;
+    height : 250px ;
+    width :250px ;
+    transition : 1s ;
+border-radius : 30px ;
+rotate : 15deg ;
+margin-top : 20px ;
+border: 3px dashed red ;
+}
+.fifthimage:hover {
+opacity : 1 ;
+scale : 1 ;
+transform: rotate(-30deg) ;
+box-shadow: 5px 20px 30px rgb(0, 179, 255) ;
+}
+
+
+.sixthimage{
+    display :flex ;
+    left : 0 ;
+    top:0 ;
+    opacity:0.5 ;
+    margin-left  : 0px ;
+    scale : 0.5 ;
+    height : 350px ;
+    width :350px ;
+    transition : 1s ;
+border-radius : 30px ;
+rotate : 15deg ;
+margin-top : 20px ;
+border: 3px dashed red ;
+
+animation : height 2s linear 2s infinite alternate ;
+
+}
+
+@keyframes height {
+    from { height : 350px  } 
+    to{ height : 380px };   
+}
+
+.sixthimage:hover {
+opacity : 1 ;
+scale : 1 ;
+transform: rotate(-30deg) ;
+box-shadow: 5px 20px 30px rgb(9, 255, 0) ;
+}
+
+
+.seventhimage{
+    display :flex ;
+    left : 0 ;
+    top:0 ;
+    opacity:0.5 ;
+    margin-left  : 0px ;
+    scale : 0.5 ;
+    height : 350px ;
+    width :350px ;
+    transition : 1s ;
+border-radius : 30px ;
+rotate : -15deg ;
+margin-top : 20px ;
+border: 3px dashed red ;
+
+animation : height 2s linear 2s infinite alternate ;
+
+}
+
+
+@keyframes height {
+    from { height : 350px  } 
+    to{ height : 380px };   
+}
+.seventhimage:hover {
+opacity : 1 ;
+scale : 1 ;
+transform: rotate(30deg) ;
+box-shadow: 5px 20px 30px rgb(255, 0, 204) ;
+}
+
+.linediv{
+    display : flex ;
+    justify-content : center ;
+    align-items: center ;
+}
+
+.button {
+    display : flex ;
+    justify-content :center;
+    align-items: center ;
+    gap : 20px ;
+}
+
+.ipromise{
+font-size : 30px ;
+margin-bottom : 10px ;
+text-decoration : underline rgb(255, 0, 43)  ;
+font-family :fantasy ;
+letter-spacing: 2px ;
+text-shadow: rgb(255, 0, 43) 5px -5px 5px ,  gray 10px -10px 10px    ;
+}
+
+.button1 {
+    margin-top : 20px ;
+   border-top : none ;
+   border-left : none ;
+   border-right : none ;
+   width : 250px ;
+   background-color: pink;
+   box-shadow: 5px 10px 10px  rgb(0, 0, 0);
+   text-shadow: rgb(0, 0, 0) 5px -5px 5px ,  gray 10px -10px 10px    ;
+   font-size: 30px ;
+   cursor : pointer ;
+   color : black ; 
+   text-decoration : none ;
+}
+
+.button2{
+    margin-top : 20px ;margin-top : 20px ;
+    border-top : none ;
+    border-left : none ;
+    border-right : none ;
+    width : 250px ;
+    background-color: pink;
+    box-shadow: 5px 10px 10px  rgb(255, 0, 43);
+    text-shadow: rgb(255, 0, 43) 5px -5px 5px ,  gray 10px -10px 10px    ;
+    font-size : 30px;
+    cursor : pointer ;
+    color : black ; 
+    text-decoration : none ;
+}
+
+
+.button1::after {
+    content: 'ek baar sochlo' ;
+    position : absolute ;
+    width : 17% ;
+    background-color: rgb(255, 0, 0) ;
+    left : 34rem ;
+    height : 2px ;
+    transform-origin : right ;
+    transform: scaleX(0); 
+    transition : transform 1s ;
+    bottom: -10%;
+}
+
+.button1:hover::after {
+    transform :scaleX(1) ;
+    transform-origin:left ;
+}
+
+
+.button2::after {
+    content: 'I love u' ;
+    position : absolute ;
+    width : 15% ;
+    background-color: rgb(0, 0, 0) ;
+    left : 52rem ;
+    height : 2px ;
+    transform-origin : right ;
+    transform: scaleX(0); 
+    transition : transform 1s ;
+    bottom: -9%;
+}
+
+.button2:hover::after {
+    transform :scaleX(1) ;
+    transform-origin:left ;
+}
+
+
+
+
+.last {
+    height : 200px ;
+
+}   
+
+
+@media only screen and (max-width : 600px){
+
+.forimagee{
+flex-wrap :wrap;
+}
+.im{
+height : 700px ;
+width : 700px ;
+margin-left : 40px ;
+}
+
+.linediv{
+    width : 1000px ;
+}
+
+.line{
+    display: flex ;
+    align-items: center ;
+    justify-content : center ;
+    margin-left : 50px ;
+    width : 1000px ;
+    background-color: rgb(104, 255, 255 , 0.4);
+    margin-right : 50px ;
+    border-top-right-radius: 150px ;
+    border-bottom-right-radius: 150px ;
+}
+
+.ipromise {
+    letter-spacing : 10px ;
+    font-size : 70px ;
+}
+
+.button{    
+    display : flex ;
+    align-items: center ;
+    justify-content :center ;
+    gap : 100px ;
+    margin-left : 500px ;
+}
+
+.button1{
+    margin-top : 100px ;
+    height : 80px ;
+    width :350px ;
+    font-size : 50px;
+}
+
+
+
+.button1::after {
+    content: 'ek baar sochlo' ;
+    position : absolute ;
+    width :50% ;
+    background-color: #ff0000 ;
+    left : 10rem ;
+    height : 2px ;
+    transform-origin : right ;
+    transform: scaleX(0); 
+    transition : transform 1s ;
+    bottom: -450%;
+}
+
+.button1:hover::after {
+    transform :scaleX(1) ;
+    transform-origin:left ;
+}
+
+
+.button2{
+    margin-top : 100px ;
+    height : 80px ;
+    width :350px ;
+    font-size : 50px;
+}
+
+.button2::after {
+    content: 'I LOVE U 🥰' ;
+    position : absolute ;
+    width :70% ;
+    background-color: black ;
+    left : 35rem ;
+    height : 2px ;
+    transform-origin : right ;
+    transform: scaleX(0); 
+    transition : transform 1s ;
+    bottom: -450%;
+}
+
+.button1:hover::after {
+    transform :scaleX(1) ;
+    transform-origin:left ;
+}
+
+}
